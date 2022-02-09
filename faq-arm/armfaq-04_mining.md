@@ -13,7 +13,26 @@ Generaly speaking the easiest way to know if your Android device is running 64-b
 #### Termux + CCminer
 1. Download&Install Termux - recommend 0.117 and above version from: https://f-droid.org/en/packages/com.termux/
 2. Open Termux app
-3.
+3. Enter commands in following order and wait for each to finish doing whatever it's doing & don't panic:
+* apt update && apt upgrade -y
+* pkg install git
+* pkg install cmake
+* pkg install proot
+* pkg install proot-distro
+* pkg upgrade
+* pkg install root-repo
+* proot-distro install ubuntu
+* proot-distro login ubuntu
+* apt-get update && apt-get upgrade -y
+* apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git nano
+* pkg install clang
+* git clone https://github.com/DevTechGames/ccminer-rk3328.git
+* cd ccminer-rk3328
+* chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh
+* pico configure.sh
+* modify clang version from 10 -> 13 by using arrow keys on the termux keyboard. Go to bottom line and press END then use back arrow key untill you find clang version 10 and change it to 13. Then press CONTROL then X to exit confirm changes with Y and then Enter.
+* ./build.sh
+* (depending on your location and pool, change wallet address and worker name and last number 8 represents number of cores you want to use. Depends on your devices core count!!! If device is overheating or heats too much lover that number!) use last command: ./ccminer -a verus -o stratum+tcp://eu.luckpool.net:3956 -u WALLETADDRESS.PHONENAME -p d=4096S -t 8
 
 
 
