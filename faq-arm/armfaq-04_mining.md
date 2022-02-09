@@ -3,7 +3,7 @@
 #### Android device must have:
 * 64-bit processor
 * 64-bit operating system
-* Free space: from 1GB - ?? GB
+* Free space: from 1GB - 3.5 GB+
 * Android 7.0 or newer
 
 Generaly speaking the easiest way to know if your Android device is running 64-bit OS is if device has 4GB RAM or more. If it shows less then you will have to double check. Easiest method is by checking kernel version. To do that I suggest to install CPU-Z app(or something similar) and check under System tab on Kernel Architecture indication for 64-bit. Next step would be to make sure CPU is ARM capable. For this I also suggest to use CPU-Z under SOC tab there should be ARM indication on Architecture for CPU in device.
