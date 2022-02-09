@@ -6,8 +6,8 @@
 * Free space: from 1GB - 3.5 GB+
 * Android 7.0 or newer
 
-Generaly speaking the easiest way to know if your Android device is running 64-bit OS is if device has 4GB RAM or more. If it shows less then you will have to double check. Easiest method is by checking kernel version. To do that I suggest to install CPU-Z app(or something similar) and check under System tab on Kernel Architecture indication for 64-bit. Next step would be to make sure CPU is ARM capable. For this I also suggest to use CPU-Z under SOC tab there should be ARM indication on Architecture for CPU in device.
-##### If you are planning to buy used or damaged Android device just for mining purpose i suggest to search for device on https://www.devicespecifications.com/ or some similar site where you can find information about OS and CPU to meet 64-bit requirements, avaliable space and Android version.
+Generally speaking the easiest way to know if your Android device is running 64-bit OS is if device has 4GB RAM or more. If it shows less then you will have to double check. Easiest method is by checking kernel version. To do that I suggest to install CPU-Z app(or something similar) and check under System tab on Kernel Architecture indication for 64-bit. Next step would be to make sure CPU is ARM capable. For this I also suggest to use CPU-Z under SOC tab there should be ARM indication on Architecture for CPU in device.
+##### If you are planning to buy used or damaged Android device just for mining purpose i suggest to search for device on https://www.devicespecifications.com/ or some similar site where you can find information about OS and CPU to meet 64-bit requirements, available space and Android version.
 
 ### If all conditions are met then you can continue further.
 #### Termux + CCminer
@@ -33,7 +33,5 @@ Generaly speaking the easiest way to know if your Android device is running 64-b
 * modify clang version from 10 -> 13 by using arrow keys on the termux keyboard. Go to bottom line and press END then use back arrow key untill you find clang version 10 and change it to 13. Then press CONTROL then X to exit confirm changes with Y and then Enter.
 * ./build.sh
 * (depending on your location and pool, change wallet address and worker name and last number 8 represents number of cores you want to use. Depends on your devices core count!!! If device is overheating or heats too much lover that number!) use last command: ./ccminer -a verus -o stratum+tcp://eu.luckpool.net:3956 -u WALLETADDRESS.PHONENAME -p d=4096S -t 8
-
-
 
 #### VerusMiner9000
