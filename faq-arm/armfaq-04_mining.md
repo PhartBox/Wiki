@@ -4,7 +4,7 @@
 * Wallet -> [GET IT HERE](https://verus.io/wallet)
 * Android mobile phone or other Android device (this guide focuses on mobile phone but same procedure can work on tablets and even on android tv box and similar)
 * Pool where you are going to mine -> [SELECT ONE HERE](https://miningpoolstats.stream/veruscoin)  
-<details><summary>CLICK TO PREVIEW BASIC INFO HOW TO SELECT POOL </summary>
+<details><summary>CLICK TO READ BASIC INFO HOW TO SELECT POOL </summary>
 <p>
 We recommend official pool from verus.io . This pool has a 5% fee, which is intended to be higher than other pools. Any and all proceeds go directly to the Verus Foundation and are used at its discretion for community bounties, listing drives, and other expenses, with the sole purpose of realizing the Verus Vision.<br>
 When you decide which pool you like depending on fees and location proceed and select it. You should be redirected to official pool webpage where you have to search for pool address. It should look like this: pool.verus.io:19999 . You are going to need this address with your wallet address later for mining software.
@@ -23,7 +23,7 @@ Generally speaking the easiest way to know if your Android device is running 64-
 
 ### If all conditions are met then you can continue further on selecting your mining software below and start mining
 
-<details><summary> EASY WAY CLICK TO PREVIEW </summary>
+<details><summary> EASY WAY CLICK TO READ </summary>
 <p>
 
 #### VerusMiner9000
@@ -35,7 +35,7 @@ Generally speaking the easiest way to know if your Android device is running 64-
 </p>
 </details>
 
-<details><summary>ADVANCED CLICK TO PREVIEW </summary>
+<details><summary>ADVANCED CLICK TO READ </summary>
 
 ##### You can choose between multiple mining solutions. Here are two versions. First one is a bit shorter and both produce pretty much same results but it is up for miner to decide.
 
