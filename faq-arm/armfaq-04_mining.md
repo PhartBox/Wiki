@@ -9,6 +9,7 @@
 We recommend official pool from verus.io . This pool has a 5% fee, which is intended to be higher than other pools. Any and all proceeds go directly to the Verus Foundation and are used at its discretion for community bounties, listing drives, and other expenses, with the sole purpose of realizing the Verus Vision.<br>
 When you decide which pool you like depending on fees and location proceed and select it. You should be redirected to official pool webpage where you have to search for pool address. It should look like this: pool.verus.io:19999 . You are going to need this address with your wallet address later for mining software.
 </p>
+</details>
 
 #### Android device must have:
 * 64-bit processor with AES functions enabled
