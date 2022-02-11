@@ -3,7 +3,8 @@
 #### Ingredients you need for mining:
 * Wallet -> [GET IT HERE](https://verus.io/wallet)
 * Android mobile phone or other Android device (this guide focuses on mobile phone but same procedure can work on tablets and even on android tv box and similar)
-* Pool where you are going to mine -> [SELECT ONE HERE](https://miningpoolstats.stream/veruscoin)  <details><summary> BASIC INFO HOW TO SELECT POOL </summary>
+* Pool where you are going to mine -> [SELECT ONE HERE](https://miningpoolstats.stream/veruscoin)  
+<details><summary> BASIC INFO HOW TO SELECT POOL </summary>
 <p>
 We recommend official pool from verus.io . This pool has a 5% fee, which is intended to be higher than other pools. Any and all proceeds go directly to the Verus Foundation and are used at its discretion for community bounties, listing drives, and other expenses, with the sole purpose of realizing the Verus Vision.<br>
 When you decide which pool you like depending on fees and location proceed and select it. You should be redirected to official pool webpage where you have to search for pool address. It should look like this: pool.verus.io:19999 . You are going to need this address with your wallet address later for mining software.
@@ -19,7 +20,7 @@ When you decide which pool you like depending on fees and location proceed and s
 Generally speaking the easiest way to know if your Android device is running 64-bit OS is if device has 4GB RAM or more. If it shows less then you will have to double check. Easiest method is by checking kernel version. To do that I suggest to install CPU-Z app(or something similar) and check under System tab on Kernel Architecture indication for 64-bit. Next step would be to make sure CPU is ARM capable. For this I also suggest to use CPU-Z under SOC tab there should be ARM indication on Architecture for CPU in device.
 ##### If you are planning to buy used or damaged Android device just for mining purpose i suggest to search for device on https://www.devicespecifications.com/ or some similar site where you can find information about OS and CPU to meet 64-bit requirements, available space and Android version.
 
-### If all conditions are met then you can continue further on selecting your mining software below and start mining 
+### If all conditions are met then you can continue further on selecting your mining software below and start mining
 
 <details><summary> EASY WAY </summary>
 <p>
